@@ -1,42 +1,25 @@
-﻿@model dynamic
+﻿@{
+    ViewData["Title"] = "Sign Up";
+}
 
-<h2>Đăng kí</h2>
-
-<form asp-controller="Account" asp-action="SignUp" method="post" onsubmit="return validatePassword()">
-    <div>
-        <label for="fullname">Nhập họ tên của bạn:</label>
-        <input type="text" id="fullname" name="fullname" required />
+<div class="auth-container">
+    <h2>SIGN UP</h2>
+    <form asp-controller="Account" asp-action="SignUp" method="post">
+        <div class="form-group">
+            <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+    <div class="text-center mt-3">
+        <p>Already have an account? <a asp-controller="Account" asp-action="Login">Login</a></p>
     </div>
-    <div>
-        <label for="username">Tên đăng nhập:</label>
-        <input type="text" id="username" name="username" required />
-    </div>
-    <div>
-        <label for="password">Mật khẩu:</label>
-        <input type="password" id="password" name="password" required />
-    </div>
-    <div>
-        <label for="password">Nhập lại mật khẩu:</label>
-        <input type="password" id="repassword" name="repassword" required />
-    </div>
-    @* error message *@
-    <p id="errorMessage" style="color:red;"></p>
-
-    <div>
-        <button type="submit">Đăng kí</button>
-    </div>
-</form>
-
-<script>
-    function validatePassword() {
-        var password = document.getElementById("password").value;
-        var repassword = document.getElementById("repassword").value;
-
-        if (password !== repassword) {
-            document.getElementById("errorMessage").innerText = "Mật khẩu và xác nhận mật khẩu không khớp.";
-            return false; // Ngăn không cho form submit
-        }
-
-        return true; // Cho phép submit nếu mật khẩu khớp
-    }
-</script>
+</div>
