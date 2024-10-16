@@ -1,0 +1,122 @@
+﻿@model IEnumerable<SellingKoi.Models.KOI>
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách Koi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .koi-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .koi-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+
+            .koi-item img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+
+        .add-to-cart {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            .add-to-cart:hover {
+                background-color: #218838;
+            }
+    </style>
+</head>
+<body>
+
+    <h1>Danh sách Koi hiện có</h1>
+    <div class="koi-container" id="koiContainer">
+        @foreach (var koi in Model)
+        {
+            <div class="koi-item">
+                @* <img src="@koi.ImageUrl" alt="@koi.Name"> *@
+                <img src="/images/default-koi.jpg" class="card-img-top" alt="Default Koi Image">
+                <h5>Tên giống cá: @koi.Name</h5>
+                <h6>Trang trại: @koi.Farm.Name</h6>
+                <h6>Tuổi : @koi.Age</h6>
+                <button class="add-to-cart" onclick="addToCart('@koi.Id', '@koi.Name')">Thêm vào giỏ hàng</button>
+            </div>
+        }
+    </div>
+
+    <script>
+        // Hàm để thêm Koi vào giỏ hàng
+        function addToCart(koiId, koiName) {
+            alert(`Cá Koi ${koiName} đã được thêm vào giỏ hàng!`);
+            // Ở đây bạn có thể thêm mã để thực sự thêm vào giỏ hàng
+        }
+    </script>
+
+    @* <script>
+        // Hàm để thêm Koi vào giỏ hàng
+        function addToCart(koiId) {
+            // Lấy giỏ hàng từ Local Storage
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+            // Kiểm tra xem Koi đã có trong giỏ hàng chưa
+            const existingKoi = cart.find(item => item.id === koiId);
+            if (existingKoi) {
+                existingKoi.quantity += 1; // Tăng số lượng nếu đã có
+            } else {
+                // Nếu chưa có, thêm Koi mới vào giỏ hàng
+                cart.push({ id: koiId, quantity: 1 });
+            }
+
+            // Lưu lại giỏ hàng vào Local Storage
+            localStorage.setItem('cart', JSON.stringify(cart));
+
+            alert(`Cá koi đã được thêm vào giỏ hàng!`);
+        }
+    </script> *@
+    @* luu vao session *@
+    <script>
+        function addToCart(koiId, koiName ) {
+            fetch('/Cart/AddToCart', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ Id: koiId, Name: koiName }) // Gửi cả id và name
+            })
+                .then(response => {
+                    return response.text().then(text => {
+                        if (response.ok) {
+                            alert(`Cá koi đã được thêm vào giỏ hàng!`);
+                        } else {
+                            alert('Có lỗi xảy ra khi thêm cá koi vào giỏ hàng: ');
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+    </script>
+
+</body>
+</html>
