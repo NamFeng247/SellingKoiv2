@@ -158,3 +158,4 @@ C:\Users\ADMIN\Desktop\SWP\SellingKoiv2-main\SellingKoi\obj\Debug\net8.0\refint\
 C:\Users\ADMIN\Desktop\SWP\SellingKoiv2-main\SellingKoi\obj\Debug\net8.0\SellingKoi.pdb
 C:\Users\ADMIN\Desktop\SWP\SellingKoiv2-main\SellingKoi\obj\Debug\net8.0\SellingKoi.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\SWP\SellingKoiv2-main\SellingKoi\obj\Debug\net8.0\ref\SellingKoi.dll
+C:\Users\ADMIN\Desktop\SWP\SellingKoiv2-main\SellingKoi\obj\Debug\net8.0\SellingKoi.sourcelink.json

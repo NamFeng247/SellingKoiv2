@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SellingKoi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d269b181c7ebd0ac654b0a1787c2ae5e4b99675b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b03f25d1b5323cd4aeac7aff7f49e93ccceaf5d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SellingKoi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SellingKoi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

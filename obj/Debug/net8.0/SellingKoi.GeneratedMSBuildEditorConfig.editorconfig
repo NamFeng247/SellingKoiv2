@@ -18,6 +18,126 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Desktop\SWP\SellingKoiv2-main\SellingKoi
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Account/AccountManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xBY2NvdW50XEFjY291bnRNYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Account/DetailsAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xBY2NvdW50XERldGFpbHNBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xBY2NvdW50XExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Account/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xBY2NvdW50XFNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xDYXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Farm/CreateFarm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xGYXJtXENyZWF0ZUZhcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Farm/DetailsFarm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xGYXJtXERldGFpbHNGYXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Farm/FarmManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xGYXJtXEZhcm1NYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Farm/UpdateFarm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xGYXJtXFVwZGF0ZUZhcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Home/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xIb21lXEFjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Home/AdminPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xIb21lXEFkbWluUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xIb21lXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Koi/CreateKoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xLb2lcQ3JlYXRlS29pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Koi/DetailsKoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xLb2lcRGV0YWlsc0tvaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Koi/EditKoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xLb2lcRWRpdEtvaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Koi/KoiManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xLb2lcS29pTWFuYWdlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Koi/KoiShopping.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xLb2lcS29pU2hvcHBpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/OrderShorten/CreateOrderShorten.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xPcmRlclNob3J0ZW5cQ3JlYXRlT3JkZXJTaG9ydGVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Order/ShowOrderHaveCreated.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xPcmRlclxTaG93T3JkZXJIYXZlQ3JlYXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Route/CreateRoute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xSb3V0ZVxDcmVhdGVSb3V0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Route/DetailsRoute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xSb3V0ZVxEZXRhaWxzUm91dGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Route/RouteManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xSb3V0ZVxSb3V0ZU1hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Route/RouteShopping.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xSb3V0ZVxSb3V0ZVNob3BwaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Route/UpdateRoute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xSb3V0ZVxVcGRhdGVSb3V0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/Views/Account/AccountManagement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NvdW50TWFuYWdlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -137,6 +257,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/SellingKoi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2VsbGluZ0tvaVxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-3t0np1seyz
 
 [C:/Users/ADMIN/Desktop/SWP/SellingKoiv2-main/SellingKoi/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
