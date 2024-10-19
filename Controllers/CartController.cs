@@ -80,5 +80,10 @@ namespace SellingKoi.Controllers
         //    return Ok();
         //}
 
+        public IActionResult GetCartCount()
+        {
+            var cart = HttpContext.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
+            return Json(cart.Count);
+        }
     }
 }

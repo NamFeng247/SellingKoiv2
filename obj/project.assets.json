@@ -4825,11 +4825,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\SWP\\SellingKoiv2-main\\SellingKoi\\SellingKoi.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\SWP\\SellingKoiv2-dev\\SellingKoi\\SellingKoi.csproj",
       "projectName": "SellingKoi",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\SWP\\SellingKoiv2-main\\SellingKoi\\SellingKoi.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Desktop\\SWP\\SellingKoiv2-dev\\SellingKoi\\SellingKoi.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\SWP\\SellingKoiv2-main\\SellingKoi\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Desktop\\SWP\\SellingKoiv2-dev\\SellingKoi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
